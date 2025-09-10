@@ -7,7 +7,9 @@ import {
   UsersIcon, 
   TruckIcon, 
   ClipboardDocumentListIcon,
-  MapIcon 
+  MapIcon,
+  MapPinIcon,
+  SparklesIcon
 } from '@heroicons/react/24/outline';
 import { clsx } from 'clsx';
 
@@ -17,6 +19,8 @@ const navigation = [
   { name: 'Vehicles', href: '/vehicles', icon: TruckIcon },
   { name: 'Jobs', href: '/jobs', icon: ClipboardDocumentListIcon },
   { name: 'Transportation', href: '/transportation', icon: MapIcon },
+  { name: 'Route Planning', href: '/route-planning', icon: MapPinIcon },
+  { name: 'AI Tools', href: '/ai-tools', icon: SparklesIcon },
 ];
 
 export default function Navbar() {
